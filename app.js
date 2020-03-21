@@ -10,7 +10,7 @@ app.get('/home', (req, res) => {
     res.render("It's working")
 })
 app.get("/about", (req, res)=> {
-    res.render("My About Page")
+    res.send("My About Page")
 })
 
 
