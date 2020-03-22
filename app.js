@@ -2,12 +2,14 @@ var express = require('express');
 var app = express();
 
 
+
 var mongoose = require('mongoose');
 
 
 
 app.get('/home', (req, res) => {
     res.render("It's working")
+    console.log(`Rendered`)
 })
 app.get("/about", (req, res)=> {
     res.send("My About Page")
