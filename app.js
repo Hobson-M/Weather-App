@@ -14,6 +14,9 @@ app.get('/home', (req, res) => {
 app.get("/about", (req, res)=> {
     res.send("My About Page")
 })
+app.get("/projects", (req, res)=> {
+    res.send(`Projects page`)
+})
 
 
 
