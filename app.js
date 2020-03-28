@@ -15,7 +15,7 @@ app.get("/about", (req, res)=> {
     res.send("My About Page")
 })
 app.get("/projects", (req, res)=> {
-    res.render(`Projects page`)
+    res.send(`Projects page`)
 })
 
 
