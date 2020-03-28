@@ -8,7 +8,7 @@ var mongoose = require('mongoose');
 
 
 app.get('/home', (req, res) => {
-    res.render("It's working")
+    res.send("It's working")
  
 })
 app.get("/about", (req, res)=> {
