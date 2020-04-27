@@ -9,6 +9,8 @@ app.get("/home", (req, res)=> {
     res.send("Working")
 })
 
+app.listen(8080)
+
 
 
 
