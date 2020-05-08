@@ -12,7 +12,9 @@ app.get("/home", (req, res)=> {
 })
 
 
-
+app.listen(8090,()=>{
+    console.log("Server On")
+})
 
 
 
