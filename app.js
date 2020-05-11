@@ -11,9 +11,7 @@ app.get("/home", (req, res)=> {
     res.send("Working")
 })
 
-app.get("/about",(req, res)=> {
-    res.send(`Working`)
-})
+
 
 
 app.listen(8090,()=>{
